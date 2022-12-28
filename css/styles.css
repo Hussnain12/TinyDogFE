@@ -1,0 +1,193 @@
+/************************ element selectors***************/
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+
+    padding-bottom: 40px;
+}
+
+h2,
+h3 {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+a {
+    color: inherit;
+}
+
+
+
+/************************ id selectors***************/
+
+
+
+#title {
+    background-color: #ff4c68;
+
+}
+
+#cta h3 {
+    color: white;
+}
+
+#features h3 {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+#features p {
+    padding: 0px 60px;
+    color: #8f8f8f;
+    font-size: 18px;
+}
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+#footer {
+    padding: 7% 15%;
+}
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    padding-bottom: 55px;
+    text-align: center;
+}
+
+
+
+
+
+/************************ class selectors***************/
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar-brand {
+
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 100;
+    color: white;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    border-radius: 5px;
+}
+
+.row {
+    padding-top: 75px;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+/* title-image */
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+.features-col {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 70px;
+}
+
+.features-icon {
+    color: #ef8172;
+    padding-bottom: 20px;
+}
+
+
+
+.features-icon:hover {
+    color: #ff4c68;
+
+}
+
+
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* .card-body{
+    text-align: center;
+}
+.card-header{
+    text-align: center;
+} */
+#pricing {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+
+
+
+.footer-brands {
+    padding: 0px 10px;
+    margin-right: 30px;
+}
+
+.span-1 {
+    padding: 0px 0px 0px 40px;
+}
+
+/* ***************************media selectors**************** */
+
+@media (max-width: 1028px) {
+    .title-image {
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center;
+    }
+
+}
